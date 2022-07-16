@@ -1,0 +1,40 @@
+html {
+  min-width: auto;
+}
+
+body {
+  display: flex;
+  min-width: auto;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+div {
+  padding: 5px;
+}
+
+.recipe{
+  display: flex;
+  flex-flow: row;
+}
+
+img {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+ol, ul {
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+li {
+  max-width: 22em;
+}
+
