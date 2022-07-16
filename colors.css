@@ -1,0 +1,23 @@
+
+body {
+  background: #EBDBB2;
+}
+
+h1, h2 {
+  color: #3C3836;
+}
+
+a {
+  color: #076678;
+  text-decoration: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+li {
+  color: #3C3836;
+}
+
+ul, ol {
+  color: #282828
+}

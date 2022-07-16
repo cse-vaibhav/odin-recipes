@@ -1,10 +1,10 @@
 html {
-  min-width: auto;
+  min-width: 75em;
 }
 
 body {
   display: flex;
-  min-width: auto;
+  min-width: 75em;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ div {
   padding: 5px;
 }
 
-.recipe{
+.content {
   display: flex;
   flex-flow: row;
 }
@@ -29,12 +29,18 @@ img {
   width: 200px;
 }
 
+ul {
+  list-style-type: square;
+}
+
 ol, ul {
-  border: 1px solid;
+  border: 1px dotted;
   border-radius: 8px;
+  border-color: #7C6F64;
 }
 
 li {
-  max-width: 22em;
+  max-width: 24em;
+  padding: 5px;
 }
 
